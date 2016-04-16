@@ -4,18 +4,18 @@
 
 {% block body %}
     <div class="container wrapper">
-        <div class="logo"><a href="http://czsale2.sensemedia.cz/index.html"><img src="{{ asset('bundles/bloodcentermain/images/czsale-logo.png') }}" alt="CZSale" title="CZSale"></a></div>
+        <div class="logo"><a href="/"></a></div>
         <nav class="navbar navbar-default" role="navigation">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#czsale-navbar">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse" id="czsale-navbar">
-                <a href="./CZSale - Add classified_files/CZSale - Add classified.html" class="btn btn-success navbar-btn navbar-left add-classified-btn" role="button">Add classified</a>
+            <div class="collapse navbar-collapse" id="navbar">
+                <a href="/" class="btn btn-danger navbar-btn navbar-left add-classified-btn" role="button">Сдать кровь</a>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="http://czsale2.sensemedia.cz/addClassified.html#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
@@ -31,14 +31,14 @@
                         </ul>
                     </li>
                     <li><a href="http://czsale2.sensemedia.cz/help.html">Help</a></li>
-                    <li><a href="http://czsale2.sensemedia.cz/signUp.html">Sign Up</a></li>
+                    <li><a href="">Регистрация</a></li>
                     <li class="dropdown">
-                        <a href="http://czsale2.sensemedia.cz/addClassified.html#" class="dropdown-toggle" data-toggle="dropdown">Sign in <b class="caret"></b></a>
+                        <a href="http://czsale2.sensemedia.cz/addClassified.html#" class="dropdown-toggle" data-toggle="dropdown">Вход<b class="caret"></b></a>
                         <ul class="dropdown-menu" style="padding: 15px;min-width: 250px;">
                             <li>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <form class="form" role="form" method="post" action="http://czsale2.sensemedia.cz/login" accept-charset="UTF-8" id="login-nav">
+                                        <form class="form" role="form" method="post" action="/" accept-charset="UTF-8" id="login-nav">
                                             <div class="form-group">
                                                 <label class="sr-only" for="exampleInputEmail2">Email address</label>
                                                 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required="">
@@ -49,11 +49,11 @@
                                             </div>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox"> Remember me
+                                                    <input type="checkbox"> Запомнить меня
                                                 </label>
                                             </div>
                                             <div class="form-group">
-                                                <button type="submit" class="btn btn-success btn-block">Sign in</button>
+                                                <button type="submit" class="btn btn-success btn-block">Вход</button>
                                             </div>
                                         </form>
                                     </div>
@@ -62,9 +62,9 @@
                             <li class="divider"></li>
                             <li>
                                 <div class="form-group">
-                                    <button onclick="location.href=&#39;#&#39;" class="btn btn-default btn-block btn-social btn-facebook"><i class="fa fa-facebook"></i> Sign in with Facebook</button>
-                                    <button onclick="location.href=&#39;#&#39;" class="btn btn-default btn-block btn-social btn-twitter"><i class="fa fa-twitter"></i> Sign in with Twitter</button>
-                                    <button onclick="location.href=&#39;#&#39;" class="btn btn-default btn-block btn-social btn-google-plus"><i class="fa fa-google-plus"></i> Sign in with Google</button>
+                                    <button onclick="location.href=&#39;#&#39;" class="btn btn-default btn-block btn-social btn-facebook"><i class="fa fa-facebook"></i> Войти с  Facebook</button>
+                                    <button onclick="location.href=&#39;#&#39;" class="btn btn-default btn-block btn-social btn-twitter"><i class="fa fa-twitter"></i> Войти с  Twitter</button>
+                                    <button onclick="location.href=&#39;#&#39;" class="btn btn-default btn-block btn-social btn-google-plus"><i class="fa fa-google-plus"></i> Войти с  Google</button>
                                 </div>
                             </li>
                         </ul>
@@ -78,7 +78,7 @@
                 <div class="well well-sm">
                     <form>
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="What are you looking for?">
+                            <input type="text" class="form-control" placeholder="Что вы ищете?">
 								<span class="input-group-btn">
 									<button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
 								</span>
