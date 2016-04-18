@@ -1,4 +1,4 @@
-package com.itinkers.bloodcenter;
+package com.qoobico.remindme;
 
 import org.junit.Test;
 

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Blood Center</string>
+    <string name="search_title">Search</string>
+    <string name="menu_item_notification">Notes</string>
+    <string name="view_navigation_open">Open</string>
+    <string name="view_navigation_close">Close</string>
+
+    <string name="tap_item_history">Donors</string>
+    <string name="tap_item_todo">Free</string>
+    <string name="tap_item_ideas">Booked</string>
+    <string name="tap_item_birthday">Needs</string>
+</resources>

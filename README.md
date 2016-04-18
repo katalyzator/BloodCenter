@@ -1,4 +1,4 @@
-# Онлайн Центр Крови в Кыргызстане
+# Онлайн Центр Крови в Кыргызстане.
 
 ![alt tag](https://img.shields.io/badge/php-5.5.9-brightgreen.svg)
 ![alt tag](https://img.shields.io/badge/symfony-2.7-yellowgreen.svg)

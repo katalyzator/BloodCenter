@@ -1,1 +1,7 @@
+.gradle
+/local.properties
+/.idea/workspase.xml
+/.idea/libraries
+.DS_Store
 /build
+RemindMe.iml
