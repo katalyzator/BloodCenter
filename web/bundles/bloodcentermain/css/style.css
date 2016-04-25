@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic,800,300italic,300,800italic&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic&subset=latin,cyrillic);
+body{
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 16px;
+}
+
+.navbar-blood {
+  background-color: #CA2A3C;
+  border-color: #AE012D;
+}
+
+.glyphicon-menu-hamburger{
+	color:#fff;
+}
+
+.navbar-brand{
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 10;
+	color: #EBE5E5;
+	font-weight: 700;
+	font-size: 25px;
+	
+}
+
+.nav li a {
+	color: #EBE5E5;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 18px;
+}
+
+.navbar-blood .navbar-brand:hover,
+.navbar-blood .navbar-brand:focus {
+  color:#fff;
+  background-color: transparent;
+}
+
+.navbar-blood .navbar-nav > li > a:hover,
+.navbar-blood .navbar-nav > li > a:focus {
+  color: #CA2A3C;
+  /*background-color: transparent;*/
+}
+
+.main{
+	margin-top: 70px;
+}
+.carousel-inner{
+	height: 400px;
+}
+.slide-image img{
+	text-align:center;
+	vertical-align: middle;
+}
+
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .fa-chevron-left,
+.carousel-control .fa-chevron-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  margin-top: -10px;
+}
+.carousel-control .icon-prev,
+.carousel-control .fa-chevron-left {
+  left: 50%;
+  margin-left: -10px;
+}
+.carousel-control .icon-next,
+.carousel-control .fa-chevron-right {
+  right: 50%;
+  margin-right: -10px;
+}
+.carousel-indicators .active{
+	background-color: #F22F60;
+	border-color: #F22F60;
+}
+
+.panel-body p{
+	text-align: left;
+}
+
+.margin{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.about-pic{
+	max-width: 370px; 
+}
+.btn{
+	font-family: Helvetica;
+}
+.ava{
+	width: 80px;
+	height: 80px;
+}
+
+footer{
+	padding-top: 30px;
+	background-color: #D8D8D8;
+	
+}
+.ul-footer{
+	list-style-type: none;
+	margin:0;
+	padding-top: 10px;
+	text-decoration: none;
+}
+.zag{
+	color: #CA2A3C;
+}
