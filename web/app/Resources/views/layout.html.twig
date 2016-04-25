@@ -5,17 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}Центр крови{% endblock %}</title>
         {% block stylesheets %}
+
             {% stylesheets 'bundles/bloodcentermain/css/*' filter='cssrewrite' %}
             <link rel="stylesheet" href="{{ asset_url }}" />
-            {% endstylesheets %}
-            <link rel="stylesheet" href="{{ asset('bundles/bloodcentermain/css/CZSale.css') }}" />
+            <link rel="stylesheet" href="{{ asset('bundles/bloodcentermain/css/bootstrap.css') }}" />
+            <link rel="stylesheet" href="{{ asset('bundles/bloodcentermain/css/font-awesome.css') }}" />
+            <link rel="stylesheet" href="{{ asset('bundles/bloodcentermain/css/style.css') }}" />
 
-            <!--[if lt IE 9]>
-            <script src="{{ asset('bundles/bloodcentermain/js/html5shiv.js') }}"></script>
-            <script src="{{ asset('bundles/bloodcentermain/js/respond.min.js') }}"></script>
-            <![endif]-->
+            {% endstylesheets %}
 
             <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
 
@@ -27,7 +26,6 @@
         {% block javascripts %}
             <script type="text/javascript" src="{{ asset('bundles/bloodcentermain/js/jquery-1.11.1.min.js') }}"></script>
             <script type="text/javascript" src="{{ asset('bundles/bloodcentermain/js/bootstrap.min.js') }}"></script>
-            <script type="text/javascript" src="{{ asset('bundles/bloodcentermain/js/CZSale.js') }}"></script>
             <script type="text/javascript" src="{{ asset('bundles/bloodcentermain/js/jquery.slides.min.js') }}"></script>
         {% endblock %}
     </body>
