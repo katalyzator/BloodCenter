@@ -1,3 +1,9 @@
-main_main_index:
+main_index:
     path:     /
     defaults: { _controller: BloodCenterMainBundle:Main:index }
+
+main_new:
+    path:     /new_donor
+    defaults: { _controller: BloodCenterMainBundle:Main:new_donor }
+
+
