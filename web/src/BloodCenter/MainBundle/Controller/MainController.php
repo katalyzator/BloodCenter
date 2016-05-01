@@ -8,8 +8,16 @@ class MainController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('BloodCenterMainBundle:Main:index.html.twig', array(
-                // ...
-            ));    }
+        return $this->render('BloodCenterMainBundle:Main:index.html.twig');
+    }
 
+    public function newDonorAction()
+    {
+        return $this->render('BloodCenterMainBundle:Main:new_donor.html.twig');
+
+
+    }
 }
+
+
+
