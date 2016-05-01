@@ -23,25 +23,36 @@
                 </button>
                 <a class="navbar-brand" href="#"><span class="fa fa-lg fa-tint"></span> Центр крови</a>
             </div>
+            {#<li class="dropdown">#}
+                {#<a href="#" class="dropdown-toggle" data-toogle="dropdown">Найти доноров <b class="caret"></b></a>#}
+                {#<ul class="dropdown-menu">#}
+                    {#<li><a href="#">MenuItem 1</a>#}
+                    {#<li><a href="#">MenuItem 2</a>#}
+                    {#<li><a href="#">MenuItem 3</a>#}
+                {#</ul>#}
+            {#</li>#}
 
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="#">О Проекте</a></li>
-
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toogle="dropdown">Найти доноров <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">MenuItem 1</a>
-                            <li><a href="#">MenuItem 2</a>
-                            <li><a href="#">MenuItem 3</a>
-                        </ul>
-                    </li>
-
                     <li >
-                        <a href="#" >Стать донором </a>
+                        <a href="new_donor" >Стать донором </a>
 
                     </li>
+                    <!-- Search -->
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Искать">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                        </div><!-- /input-group -->
+                    </form>
+
+
 
                 </ul>
 
